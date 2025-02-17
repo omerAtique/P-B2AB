@@ -1,0 +1,20 @@
+User Document
+|
+Document Classification
+
+MODULE 1:
+Book
+|
+ask user questions to better process the document. 
+|
+parsing document and extracting formatted text, need to have this page by page
+|
+Table of contents extraction and calculations for exact page number for each chapter
+(Keep in mind the offset from the start of the pdf and the page numbering in the table of content may not reflect distance from start of the pdf)
+|
+Chunking the book into chapter by chapter sections.
+|
+Based on each chapter, extract the summary, key points, dates, names, events and timeline if any.
+|
+TTS each chunk in a FIFO manner and stylize the audio before saving to audio files one by one. The one that has been processed should be showed as avilable to the user.
+
